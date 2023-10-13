@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    
+
+    <title>Alejandro Portfolio Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">Alejandro</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <!-- Home icon -->
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Inicio
+              </a>
+            </li>
+
+            <!-- About icon -->
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>Acerca de mí
+              </a>
+            </li>
+
+            <!-- Skills icon -->
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Habilidades
+              </a>
+            </li>
+
+            <!-- Services icon -->
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Servicios
+              </a>
+            </li>
+
+            <!-- Portfolio icon -->
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Portafolio
+              </a>
+            </li>
+
+            <!-- Contactme icon -->
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contáctame
+              </a>
+            </li>
+          </ul>
+          <!-- Close menu icon -->
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <!-- apps menu icon -->
+        <div class="nav__btns">
+          <!-- Theme Change Btn -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <!-- linkedin  icon -->
+              <a
+                href="https://www.linkedin.com/in/alejandro-echeverria-289599252/"
+                class="home__social-icon"
+                target="_blank">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <!-- github  icon -->
+              <a
+                href="https://github.com/Alec-Echeverria"
+                class="home__social-icon"
+                target="_blank">
+                <i class="uil uil-github-alt"></i>
+              </a>
+
+              <!-- whatsapp  icon -->
+              <a
+                href="https://wa.me/+573502345754"
+                class="home__social-icon"
+                target="_blank">
+                <i class="uil uil-whatsapp"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <!-- blob  background -->
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                  <!-- Perfil image -->
+                  <image
+                    class="home__blob-img"
+                    x="12"
+                    y="18"
+                    href="./assets/img/perfil_two.png" />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hola, soy Alejandro</h1>
+              <h3 class="home__subtitle">Ing Mecatrónico - Developer</h3>
+              <p class="home__description">
+                Explorando el desarrollo de soluciones mecatrónicas y
+                aplicaciones web, con el objetivo de crear productos de
+                excelente calidad.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contáctame<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Desplázate hacia abajo</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">Acerca de mi</h2>
+        <span class="section__subtitle">Mi introducción</span>
+
+        <div class="about__container container grid">
+          <!-- About image -->
+          <img src="./assets/img/about.png" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              Desarrollador e ingeniero mecatrónico altamente motivado, con un
+              fuerte deseo de aprender y crear productos de excelente calidad.
+            </p>
+
+            <!-- about stats -->
+            <div class="about__info">
+              <!-- years -->
+              <div>
+                <span class="about__info-title">+01</span>
+                <span class="about__info-name"
+                  >Años de<br />
+                  experiencia</span
+                >
+              </div>
+
+              <!-- projects -->
+              <div>
+                <span class="about__info-title">+03</span>
+                <span class="about__info-name"
+                  >Proyectos<br />
+                  completados</span
+                >
+              </div>
+
+              <!-- companies -->
+              <div>
+                <span class="about__info-title">+01</span>
+                <span class="about__info-name"
+                  >Experiencia en <br />
+                  compañias</span
+                >
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <!-- curriculum  vitae -->
+              <a
+                download=""
+                href="./assets/pdf/Hoja de vida Alejandro Echeverria.pdf"
+                class="button button--flex">
+                 Descarga CV
+                <i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Habilidades</h2>
+        <span class="section__subtitle">Mi nivel técnico</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!--==================== SKILLS FRONT ====================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Desarrollador Frontend</h1>
+                  <span class="skills__subtitle">Mas de 6 meses</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <!-- HTML skill -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">Intermedio-Avanzado</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+
+                <!-- CSS skill -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">Intermedio-Avanzado</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+
+                <!-- Javascript skill -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Javascript</h3>
+                    <span class="skills__number">Intermedio</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+
+                <!-- React skill -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__number">Basico - Intermedio</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== SKILLS BACK ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-server-network skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Desarrollador backend</h1>
+                  <span class="skills__subtitle">Mas de 3 meses</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__number">Intermedio-Avanzado</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__python"></span>
+                  </div>
+                </div>
+
+                <!-- CSS skill -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SQL</h3>
+                    <span class="skills__number">Intermedio</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sql"></span>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div>
+
+            <!--==================== SKILLS RPA ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-robot skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Desarrollador Rpa</h1>
+                  <span class="skills__subtitle">Mas de 3 meses</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+
+                <!-- Selenium skill -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Selenium</h3>
+                    <span class="skills__number">Intermedio-Avanzado</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__selenium_python"></span>
+                  </div>
+                </div>
+
+                <!-- Pandas skill -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Pandas</h3>
+                    <span class="skills__number">Intermedio</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__pandas"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== SKILLS OTHERS ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-database skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Otros conocimientos</h1>
+                  <span class="skills__subtitle"></span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+
+                <!-- Selenium skill -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Análisis de los datos</h3>
+                    <span class="skills__number">Basico</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__data_analisis"></span>
+                  </div>
+                </div>
+
+
+                <!-- Pandas skill -->
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Microcontroladores</h3>
+                    <span class="skills__number">Intermedio</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage micros_c_plus"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title">Trayectoria</h2>
+        <span class="section__subtitle">Mi viaje personal</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education">
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Educación
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Laboral
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education">
+              <!--==================== QUALIFICATION 1====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Ingeniero Mecatrónico</h3>
+                  <span class="qualification__subtitle"
+                    >Colombia - Uniagraria</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2017 - 2023
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2====================-->
+              <!-- <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Cursos en desarrollo</h3>
+                  <span class="qualification__subtitle"
+                    > Platzi - Udemy</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019 - actualmente
+                  </div>
+                </div>
+              </div> -->
+
+
+              <!--==================== QUALIFICATION 3====================-->
+              <!-- <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Web Development</h3>
+                  <span class="qualification__subtitle"
+                    >Colombia - Institute</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019 - 2023
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div> -->
+
+              <!--==================== QUALIFICATION 4====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span> 
+                  <!-- <span class="qualification__line"></span> -->
+                  </div>
+
+                <div>
+                  <h3 class="qualification__title">Cursos en desarrollo & Data</h3>
+                  <span class="qualification__subtitle"
+                    >Platzi - Udemy</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019 - Actualmente
+                  </div>
+                </div> 
+              </div>
+
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT 2====================-->
+            <div class="qualification__content" data-content id="work">
+
+              <!--==================== QUALIFICATION 1====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Desarrollador FreeLance</h3>
+                  <span class="qualification__subtitle"
+                    >Colombia - K9 Security LTDA</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - 2023
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+
+
+              <!--==================== QUALIFICATION 2====================-->
+              <!-- <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Fronted Developer</h3>
+                  <span class="qualification__subtitle">Apple Inc - Spain</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018 - 2022
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span> 
+                  <!-- <span class="qualification__line"></span> -->
+                  </div>
+
+                <div>
+                  <h3 class="qualification__title">Desarrollador RPA</h3>
+                  <span class="qualification__subtitle"
+                    >Colombia - Pidgin</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2023 - 2023
+                  </div>
+                </div> 
+              </div>
+
+              <!--==================== QUALIFICATION 3====================-->
+              <!-- <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Desarrollador RPA</h3>
+                  <span class="qualification__subtitle">Figma - Colombia</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019 - 2023
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+              </div> -->
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Servicios</h2>
+        <span class="section__subtitle">Lo que ofrezco</span>
+
+        <div class="services__container container grid">
+          <!--==================== SERVICES 1====================-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-screw services__icon"></i>
+              <h3 class="services__title">
+                 Desarrollo de<br />
+                 prototipos mecatrónicos
+              </h3>
+            </div>  
+
+            <span
+              class="button button--flex button--small button--link services__button">
+              Ver mas
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">Desarrollo de<br/> prototipos mecatrónicos</h4>
+                <i class="uil uil-times services__modal-close"></i>
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Transformación de conceptos en prototipos físicos.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Diseño y Modelado.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Colaboración Multidisciplinaria</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Pruebas de Campo.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--==================== SERVICES 2====================-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-robot services__icon"></i>
+              <h3 class="services__title">
+                Desarrollo de<br/>
+                bots RPA con Python
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button">
+              Ver mas
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">Desarrollo<br />RPA con Python</h4>
+                <i class="uil uil-times services__modal-close"></i>
+                <ul class="services__modal-services grid">
+
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Automatizacion de tareas repetitivas en la compañia.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Extracción de datos de paginas Web.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Generación de Informes Periódicos.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Tratamiento de informes mediante Pandas lib.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SERVICES 3====================-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-brackets-curly services__icon"></i>
+              <h3 class="services__title">
+                Desarrollo de <br />
+                aplicaciones<span style="color: rgba(235, 25, 25, 0.658);"><br>(No disponible)</span>
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button">
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">Desarrollo<br />aplicaciones full-stack</h4>
+                <i class="uil uil-times services__modal-close"></i>
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Delimitación de la idea</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Desarrollo de la interfaz de usuario.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Consumos de servicios</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Despliegue de producto</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portafolio</h2>
+        <span class="section__subtitle">Trabajos más reciente</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/portfolio1.png"
+                alt=""
+                class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Sitio Web</h3>
+                <p class="portfolio__description">
+                  Sitio web para la gestion de datos, creado para una empresa de seguridad. Uso de Django & React
+                </p>
+                <a
+                  href="#contact"
+                  class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 2====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/portfolio2.gif"
+                alt=""
+                class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Caja de premiación RF</h3>
+                <p class="portfolio__description">
+                  Dispositivo para lanzar una pelota a perros especializados en olfato desde lejos, con batería recargable y luces indicadoras.
+                </p>
+                <a
+                  href="#contact"
+                  class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/portfolio3.png"
+                alt=""
+                class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Silueta de tiro de reseteo automatico</h3>
+                <p class="portfolio__description">
+                  Creado para un poligono de disparo, se realizo desde el diseño (en equipo) hasta el prototipo funcional. 
+                </p>
+                <a
+                  href="#contact"
+                  class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== PROJECT IN MIND ====================-->
+      <section class="project section">
+        <div class="project__bg">
+          <div v class="project__container container grid">
+            <div class="project__data">
+              <h2 class="project__title">Tienes un nuevo proyecto?</h2>
+              <p class="project__description">
+                Contáctame y charlamos sobre el!
+              </p>
+
+              <a href="#contact" class="button button--flex button--white">
+                Contáctame
+                <i class="uil uil-message project__icon button__icon"></i>
+              </a>
+            </div>
+
+            <img src="./assets/img/project.png" alt="" class="project__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section">
+        <h2 class="section__title">Testimonios</h2>
+        <span class="section__subtitle">Lo que dicen mis clientes</span>
+
+        <div class="testimonial__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== TESTIMONIAL 1 ====================-->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="./assets/img/testimonial1.png"
+                    alt=""
+                    class="testimonial__img" />
+
+                  <div>
+                    <h3 class="testimonial__name">K9 Security LTDA</h3>
+                    <span class="testimonial__client">Empresa</span>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                </div>
+              </div>
+              <p class="testimonial__description">
+                Excelente desarrollo del prototipo, siempre atento a los nuevos requerimientos.
+                El resultado final superó nuestras expectativas. ¡Muy recomendado!
+              </p>
+            </div>
+
+            <!--==================== TESTIMONIAL 2 ====================-->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="./assets/img/testimonial2.png"
+                    alt=""
+                    class="testimonial__img" />
+
+                  <div>
+                    <h3 class="testimonial__name">Logiscan LTDA</h3>
+                    <span class="testimonial__client">Empresa</span>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                </div>
+              </div>
+              <p class="testimonial__description">
+                RPA ha cambiado nuestro negocio para mejor. La automatización nos hace más eficientes y ahorra dinero. ¡Una solución asombrosa!.
+              </p>
+            </div>
+
+            <!--==================== TESTIMONIAL 3 ====================-->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="./assets/img/testimonial3.png"
+                    alt=""
+                    class="testimonial__img" />
+
+                  <div>
+                    <h3 class="testimonial__name">Yeny Vargas</h3>
+                    <span class="testimonial__client">Cliente</span>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                </div>
+              </div>
+              <p class="testimonial__description">
+                Excelentes ideas innovadoras. Espero que el proyecto de LogisPet siga creciendo y fortaleciéndose.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-pagination swiper-pagination-testimonial"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contáctame</h2>
+        <span class="section__subtitle">Ponte en contacto</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Llamame</h3>
+                <span class="contact__subtitle">+57 3502345754</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">alejandroecheverria.log@gmail.com
+                </span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Localización</h3>
+                <span class="contact__subtitle">Colombia - Bogota</span>
+              </div>
+            </div>
+          </div>
+          <form action="https://formspree.io/f/xrgvggqw" class="contact__form grid" method="POST">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="nombre" class="contact__label">Nombre</label>
+                <input type="text" class="contact__input" id="nombre" name="nombre" />
+              </div>
+              <div class="contact__content">
+                <label for="email" class="contact__label">Email</label>
+                <input type="email" class="contact__input" id="email" name="email" />
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="proyecto" class="contact__label">Proyecto</label>
+              <input type="text" class="contact__input" id="proyecto" name="proyecto" />
+            </div>
+            <div class="contact__content">
+              <label for="mensaje" class="contact__label">Mensaje</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+            <div>
+              <a href="javascript:void(0);" onclick="enviarFormulario();" class="button button-flex">
+                Enviar Mensaje
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form>
+          
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Alejandro</h1>
+            <span class="footer__subtitle">Ing Mecatrónico - Developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Servicios</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="footer__link">Portafolio</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="footer__link">Contáctame</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://www.linkedin.com/in/alejandro-echeverria-289599252/" target="_blank" class="footer__social"
+              ><i class="uil uil-linkedin"></i></i
+            ></a>
+            <a href="#" target="_blank" class="footer__social"
+              ><i class="uil uil-instagram"></i
+            ></a>
+            <a href="#" target="_blank" class="footer__social"
+              ><i class="uil uil-twitter-alt"></i
+            ></a>
+          </div>
+        </div>
+
+        <p class="footer__copy">
+          &#169;Alejandro Echeverria. All right reserved
+        </p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
